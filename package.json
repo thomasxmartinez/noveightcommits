@@ -1,0 +1,36 @@
+{
+  "name": "noveightcommits",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --recursive test",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasxmartinez/noveightcommits.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasxmartinez/noveightcommits/issues"
+  },
+  "homepage": "https://github.com/thomasxmartinez/noveightcommits#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai2-json-schema": "^1.2.0",
+    "mocha": "^4.0.1",
+    "superagent": "^3.8.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consolidate": "^0.15.0",
+    "dust": "^0.3.0",
+    "dustjs-helpers": "^1.7.3",
+    "dustjs-linkedin": "^2.7.5",
+    "express": "^4.16.2",
+    "pg": "^6.4.2"
+  }
+}
