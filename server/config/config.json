@@ -1,13 +1,5 @@
 {
   "development": {
     "use_env_variable": "DATABASE_URL"
-  },
-  "test": {
-    "username": "postgres",
-    "password": "fullbird34!",
-    "database": "records",
-    "host": "127.0.0.1",
-    "port": 5433,
-    "dialect": "postgres"
   }
 }
