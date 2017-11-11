@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 require('./server/routes')(app);
 app.get('*', (req, res) =>
   res.status(200).send({
-    message: 'party on the port!!!woot!! up in here'
+    message: 'party on the port!!!woot woot!! up in here'
   })
 );
 
